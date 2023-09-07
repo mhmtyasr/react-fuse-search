@@ -8,9 +8,7 @@ The `useSearch` hook is a custom React hook designed to simplify the process of 
 To use the `useSearch` hook in your React application, you can follow these steps:
 
 ```bash
-npm install use-search-hook
-# or
-yarn add use-search-hook
+npm i react-fuse-search
 ```
 
 ## Parameters
@@ -21,7 +19,7 @@ yarn add use-search-hook
 ## Example
 
 ```Typescript 
-import Component from 'benim-projem'
+import Component from 'react-fuse-search'
 
 const App = () => {
   const [setQuery, results] = useSearch(
